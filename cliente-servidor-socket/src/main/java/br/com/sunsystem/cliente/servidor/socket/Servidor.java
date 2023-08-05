@@ -23,9 +23,6 @@ public class Servidor implements Runnable {
     private static ServerSocket servidor;
     private final List<ClienteSocket> clientes = new LinkedList<>();
 
-    public Servidor(int parseInt, JTable tRequests, JLabel lMessage) {
-    }
-
     private Servidor() {
         
     }
